@@ -14,9 +14,8 @@ connectDB()
 
 // Middlewares
 app.use(cors({
-  origin: "https://dsaquiz-y43f.onrender.com",
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  credentials: true
+  origin: "https://dsaquiz-68fp.onrender.com",
+  methods: ["GET", "POST"],
 }))
 app.use(express.json())
 
