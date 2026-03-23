@@ -13,7 +13,9 @@ const PORT = process.env.PORT || 2121
 connectDB()
 
 // Middlewares
-app.use(cors())
+app.use(cors({
+  origin:"https://dsaquiz-y43f.onrender.com"
+}))
 app.use(express.json())
 
 // Routes
