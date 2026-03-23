@@ -77,7 +77,7 @@ const Home = () => {
           onClick={handleGenerate}
           disabled={!selectedTopic}
           size="lg"
-          className="w-full font-mono text-base font-semibold tracking-wide"
+          className="w-full font-mono text-base font-semibold tracking-wide cursor-pointer"
         >
           {selectedTopic
             ? `Generate ${selectedDifficulty.charAt(0).toUpperCase() + selectedDifficulty.slice(1)} Problems of ${selectedTopic} →`

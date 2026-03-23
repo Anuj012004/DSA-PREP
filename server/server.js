@@ -7,7 +7,7 @@ const connectDB = require('./config/database')
 const questionRoutes = require('./routes/questionRoutes')
 const errorHandler = require('./middleware/errorHandler')
 
-const PORT = 2121
+const PORT = process.env.PORT || 2121
 
 // Connect to MongoDB
 connectDB()
